@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Student>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <ul>
+            @foreach (var student in Model)
+            {
+                <li><span>姓名：</span>@student.Name</li>
+                <a asp-controller="home" asp-action="Details" asp-route-id="@student.Id">查看</a>
+            }
+
+        </ul>
+    </div>
+  
+</body>
+</html>
