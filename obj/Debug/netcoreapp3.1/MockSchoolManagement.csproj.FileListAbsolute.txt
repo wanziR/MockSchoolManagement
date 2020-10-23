@@ -463,7 +463,6 @@ D:\NetCore\MockSchoolManagement\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\
 D:\NetCore\MockSchoolManagement\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\NetCore\MockSchoolManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\NetCore\MockSchoolManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\NetCore\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.csprojAssemblyReference.cache
 D:\NetCore\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.AssemblyInfoInputs.cache
 D:\NetCore\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.AssemblyInfo.cs
 D:\NetCore\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.csproj.CoreCompileInputs.cache

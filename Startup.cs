@@ -33,8 +33,8 @@ namespace MockSchoolManagement
             services.AddDbContextPool<AppDBContext>(
                 options=>options.UseSqlServer(_configration.GetConnectionString("MockStudentDBConnection")));
             services.AddControllersWithViews().AddXmlSerializerFormatters();
-           services.AddScoped<IStudentRepository,MockStudentRepository>();
-          //   services.AddScoped<IStudentRepository,SQLStudentRepository>();
+          //services.AddScoped<IStudentRepository,MockStudentRepository>();
+          services.AddScoped<IStudentRepository,SQLStudentRepository>();
 
 
         }   
