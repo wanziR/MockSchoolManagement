@@ -1,7 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockSchoolManagement", "MockSchoolManagement.csproj", "{7FB879E9-2FFE-4F50-B4DB-CD1191775770}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MockSchoolManagement", "MockSchoolManagement.csproj", "{7FB879E9-2FFE-4F50-B4DB-CD1191775770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +14,11 @@ Global
 		{7FB879E9-2FFE-4F50-B4DB-CD1191775770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB879E9-2FFE-4F50-B4DB-CD1191775770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB879E9-2FFE-4F50-B4DB-CD1191775770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB192E08-B9E3-4476-B3B1-1ED694CEE892}
 	EndGlobalSection
 EndGlobal

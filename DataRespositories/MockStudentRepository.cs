@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using MockSchoolManagement.Models.EnumTypes;
 
 namespace MockSchoolManagement.Models
 {
@@ -12,9 +13,9 @@ namespace MockSchoolManagement.Models
         {
             _studentList = new List<Student>()
             {
-                new Student(){ Id=1,Name="张三",Major="计算机科学",Email="zhangsan@5amcn.com" },
-                new Student(){ Id=2,Name="李四",Major="物流",Email="lisi@5amcn.com" },
-                new Student(){ Id=3,Name="周五",Major="电子商务",Email="zhouwu@5amcn.com" }
+                new Student(){ Id=1,Name="张三",Major=MajorEnum.ComputerScience,Email="zhangsan@5amcn.com" },
+                new Student(){ Id=2,Name="李四",Major=MajorEnum.Mathematics,Email="lisi@5amcn.com" },
+                new Student(){ Id=3,Name="周五",Major=MajorEnum.ElectronicCommerce,Email="zhouwu@5amcn.com" }
             };
 
         }

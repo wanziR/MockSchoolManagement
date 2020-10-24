@@ -6,7 +6,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
+    <Compile Remove="Migrations\20201023041636_SeedStudentTable.cs" />
+    <Compile Remove="Migrations\20201023041636_SeedStudentTable.Designer.cs" />
+    <Compile Remove="Migrations\20201023044755_AlterStudentsSeedData.cs" />
+    <Compile Remove="Migrations\20201023044755_AlterStudentsSeedData.Designer.cs" />
+    <Compile Remove="Migrations\20201023145840_AddPhtoPathToStudent.cs" />
+    <Compile Remove="Migrations\20201023145840_AddPhtoPathToStudent.Designer.cs" />
+    <Compile Remove="Migrations\20201023150841_local-AddPhotoPathToStudent.cs" />
+    <Compile Remove="Migrations\20201023150841_local-AddPhotoPathToStudent.Designer.cs" />
+    <Compile Remove="Migrations\20201023160305_MajorEnumTypeChange.cs" />
+    <Compile Remove="Migrations\20201023160305_MajorEnumTypeChange.Designer.cs" />
+    <Compile Remove="Migrations\20201023161302_EnumTypeChange.cs" />
+    <Compile Remove="Migrations\20201023161302_EnumTypeChange.Designer.cs" />
+    <Compile Remove="Migrations\20201023162501_DelStudentViewModel.cs" />
+    <Compile Remove="Migrations\20201023162501_DelStudentViewModel.Designer.cs" />
+    <Compile Remove="Migrations\20201024002555_MajoyEnumTypeChange.cs" />
+    <Compile Remove="Migrations\20201024002555_MajoyEnumTypeChange.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
