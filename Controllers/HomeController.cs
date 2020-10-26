@@ -57,5 +57,15 @@ namespace MockSchoolManagement.Controllers
            //将ViewModel传递给View()方法
             return View(homeDetialsViewModel);
         }
+
+        public IActionResult Create(StudentCreateViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                string uniqueFileName = null;
+
+            }
+            return View();
+        }
     }
 }

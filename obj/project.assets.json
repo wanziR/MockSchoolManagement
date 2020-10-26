@@ -8557,21 +8557,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LONG\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\LONG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NetCore\\MockSchoolManagement\\MockSchoolManagement.csproj",
+      "projectUniqueName": "C:\\Project\\MockSchoolManagement\\MockSchoolManagement.csproj",
       "projectName": "MockSchoolManagement",
-      "projectPath": "D:\\NetCore\\MockSchoolManagement\\MockSchoolManagement.csproj",
+      "projectPath": "C:\\Project\\MockSchoolManagement\\MockSchoolManagement.csproj",
       "packagesPath": "C:\\Users\\LONG\\.nuget\\packages\\",
-      "outputPath": "D:\\NetCore\\MockSchoolManagement\\obj\\",
+      "outputPath": "C:\\Project\\MockSchoolManagement\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
