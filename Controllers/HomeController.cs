@@ -38,8 +38,7 @@ namespace MockSchoolManagement.Controllers
         //    return _studentRepository.GetStudent(1).Name;
 
         //}
-        [Route("")]
-        [Route("")]
+       // [Route("")]
         public IActionResult Index()
         {
             var model = _studentRepository.GetAllStudent();

@@ -4,19 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>学生列表 </title>
 </head>
 <body>
-    <div>
-        <ul>
-            @foreach (var student in Model)
-            {
-                <li><span>姓名：</span>@student.Name</li>
-                <a asp-controller="home" asp-action="Details" asp-route-id="@student.Id">查看</a>
-            }
+    <h3>学生列表</h3>
+    <div class="row text-center">
 
-        </ul>
+        @foreach (var student in Model)
+        {
+<div class="col-sm-4">
+    <div class="card">
+        <div class="card-header text-center">
+            <h1>@student.Name</h1>
+        </div>
+        <div class="card-body text-center">
+            <img class="card-img-top" src="/Images/default.jpg" alt="">
+            <h4>学生ID:@student.Id</h4>
+            <h4>邮箱:@student.Email</h4>
+            <h4>主休科目:@student.Major</h4>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-controller="home" asp-action="Details" asp-route-id="@student.Id" class="btn btn-primary">查看</a>
+        </div>
     </div>
-  
+</div>}
+
+    </div>
+
 </body>
 </html>

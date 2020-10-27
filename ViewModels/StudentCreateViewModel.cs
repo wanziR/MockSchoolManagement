@@ -27,6 +27,6 @@ namespace MockSchoolManagement.ViewModels
 
 
         [Display(Name = "头像")]
-        public IFormFile FormFile { get; set; }
+        public IFormFile Photo { get; set; }
     }
 }
