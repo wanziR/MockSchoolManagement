@@ -1,24 +1,16 @@
 ﻿@model IEnumerable<Student>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学生列表 </title>
-</head>
-<body>
-    <h3>学生列表</h3>
+<h3>学生列表</h3>
     <div class="row text-center">
 
         @foreach (var student in Model)
         {
-<div class="col-sm-4">
+<div class="col-sm-3">
     <div class="card">
         <div class="card-header text-center">
             <h1>@student.Name</h1>
         </div>
         <div class="card-body text-center">
-            <img class="card-img-top" src="/Images/default.jpg" alt="">
+            <img class="card-img-top imageThumbnail" src="/Images/@(student.PhotoPath ?? "noimage.jpg")" alt="">
             <h4>学生ID:@student.Id</h4>
             <h4>邮箱:@student.Email</h4>
             <h4>主休科目:@student.Major</h4>
@@ -30,6 +22,3 @@
 </div>}
 
     </div>
-
-</body>
-</html>

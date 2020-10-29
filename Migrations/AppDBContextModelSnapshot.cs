@@ -55,6 +55,20 @@ namespace MockSchoolManagement.Migrations
                             Email = "zs@5amcn.com",
                             Major = 3,
                             Name = "张三"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Email = "ls@5amcn.com",
+                            Major = 2,
+                            Name = "李四"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Email = "ww@5amcn.com",
+                            Major = 2,
+                            Name = "王五"
                         });
                 });
 #pragma warning restore 612, 618

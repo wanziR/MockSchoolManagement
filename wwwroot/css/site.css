@@ -1,5 +1,4 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+﻿/*请参阅文档https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification有关配置此项目以捆绑和缩小静态web资产的详细信息  */
 
 a.navbar-brand {
   white-space: normal;
@@ -7,7 +6,7 @@ a.navbar-brand {
   word-break: break-all;
 }
 
-/* Provide sufficient contrast against white background */
+/* 在白色背景下提供足够的对比度 */
 a {
   color: #0366d6;
 }

@@ -36,4 +36,7 @@
   <ItemGroup>
     <Content Remove="Views\Home\Index %28副本%29.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\avatars\" />
+  </ItemGroup>
 </Project>

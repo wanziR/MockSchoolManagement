@@ -655,3 +655,4 @@ C:\Project\MockSchoolManagement\obj\Debug\netcoreapp3.1\staticwebassets\MockScho
 C:\Project\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.dll
 C:\Project\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.pdb
 C:\Project\MockSchoolManagement\obj\Debug\netcoreapp3.1\MockSchoolManagement.genruntimeconfig.cache
+C:\Project\MockSchoolManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create_.cshtml.g.cs

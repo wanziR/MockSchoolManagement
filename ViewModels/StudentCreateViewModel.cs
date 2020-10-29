@@ -15,7 +15,7 @@ namespace MockSchoolManagement.ViewModels
         public string  Name { get; set; }
 
 
-
+        [Required(ErrorMessage = "请选择一门科目")]
         [Display(Name = "主修科目")]
         public MajorEnum Major { get; set; }
 

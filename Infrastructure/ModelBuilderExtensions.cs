@@ -31,6 +31,24 @@ namespace MockSchoolManagement.Infrastructure
                    Email = "zs@5amcn.com"
                }
                );
+            modelBuilder.Entity<Student>().HasData(
+                new Student
+                {
+                    Id = 3,
+                    Name = "李四",
+                    Major = MajorEnum.ElectronicCommerce,
+                    Email = "ls@5amcn.com"
+                }
+            );  
+            modelBuilder.Entity<Student>().HasData(
+                new Student
+                {
+                    Id = 4,
+                    Name = "王五",
+                    Major = MajorEnum.ElectronicCommerce,
+                    Email = "ww@5amcn.com"
+                }
+            );
         }
     }
 }

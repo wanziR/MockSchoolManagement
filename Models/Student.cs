@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using MockSchoolManagement.Models.EnumTypes;
 
 namespace MockSchoolManagement.Models
@@ -7,9 +8,7 @@ namespace MockSchoolManagement.Models
     {
         public int Id { get; set; }
         public string  Name { get; set; }
-        /// <summary>
-        /// 主修科目
-        /// </summary>
+
         public MajorEnum Major { get; set; }
         public string  Email { get; set; }
 
