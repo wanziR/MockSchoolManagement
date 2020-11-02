@@ -1,4 +1,11 @@
-﻿/*请参阅文档https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification有关配置此项目以捆绑和缩小静态web资产的详细信息  */
+﻿.imageThumbnail {
+    height: 200px;
+    width: auto;
+}
+
+
+
+/*请参阅文档https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification有关配置此项目以捆绑和缩小静态web资产的详细信息  */
 
 a.navbar-brand {
   white-space: normal;

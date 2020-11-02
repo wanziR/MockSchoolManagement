@@ -6,11 +6,13 @@
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/js/site.js"></script>
-    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true"/>
+
     <title>@ViewBag.Title</title>
+
 </head>
 <body>
-
+    
 <h1>菜单</h1>
 <div class="container">
     @* 添加bootstrap样式类container *@
@@ -18,8 +20,7 @@
 </div>
 @if (IsSectionDefined("Scripts"))
 {
-    @RenderSection("Scripts", required: false)
-    ;
+    @RenderSection("Scripts", required: false);
 }
 </body>
 </html>
